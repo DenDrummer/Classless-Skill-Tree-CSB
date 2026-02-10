@@ -26,6 +26,25 @@
       "flags": {}
     }
   ],
+	"packFolders":[
+		{
+			"name": "Modules",
+      "folders": [
+        {
+          "name": "Classless Skill Tree (CSB)",
+          "sorting": "a",
+          "packs": [
+            "cst-actors-csb",
+            "cst-items-csb",
+            "cst-journals-csb",
+            "cst-rolltables-csb"
+          ],
+          "color": null,
+          "folders": []
+        }
+      ]
+		}
+	],
   "packs": [
     {
       "name": "cst-actors-csb",
