@@ -1,7 +1,7 @@
 {
   "id": "classless-skill-tree-csb",
   "title": "Classless Skill Tree (CSB)",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -26,9 +26,9 @@
       "flags": {}
     }
   ],
-	"packFolders":[
-		{
-			"name": "Modules",
+  "packFolders": [
+    {
+      "name": "Modules",
       "folders": [
         {
           "name": "Classless Skill Tree (CSB)",
@@ -42,53 +42,55 @@
           "color": null,
           "folders": []
         }
-      ]
-		}
-	],
+      ],
+      "color": null,
+      "packs": []
+    }
+  ],
   "packs": [
     {
       "name": "cst-actors-csb",
       "label": "CST - Actors (CSB)",
       "path": "packs/cst-actors-csb",
       "type": "Actor",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "cst-items-csb",
       "label": "CST - Items (CSB)",
       "path": "packs/cst-items-csb",
       "type": "Item",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "cst-journals-csb",
       "label": "CST - Journals (CSB)",
       "path": "packs/cst-journals-csb",
       "type": "JournalEntry",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "cst-rolltables-csb",
       "label": "CST - Rolltables (CSB)",
       "path": "packs/cst-rolltables-csb",
       "type": "RollTable",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     }
   ]
 }
