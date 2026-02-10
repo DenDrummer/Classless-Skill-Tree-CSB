@@ -1,0 +1,75 @@
+{
+  "id": "classless-skill-tree-csb",
+  "title": "Classless Skill Tree (CSB)",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Templates and resources made with Custom System builder based on The Ugly Goblin's Classless Skill Tree for DnD 5e.",
+  "authors": [
+    {
+      "name": "The Ugly Goblin",
+      "flags": {}
+    },
+    {
+      "name": "Den_drummer",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "cst-actors-csb",
+      "label": "CST - Actors (CSB)",
+      "path": "packs/cst-actors-csb",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "cst-items-csb",
+      "label": "CST - Items (CSB)",
+      "path": "packs/cst-items-csb",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "cst-journals-csb",
+      "label": "CST - Journals (CSB)",
+      "path": "packs/cst-journals-csb",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "cst-rolltables-csb",
+      "label": "CST - Rolltables (CSB)",
+      "path": "packs/cst-rolltables-csb",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    }
+  ]
+}
